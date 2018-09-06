@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amber's Gems</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body class="container">
+    <h1 class="row">Amber's Gems</h1>
+    <div class="row">
+            
+        <div class="col-xs-4 col-sm-8">
+            <h3>Your target number:</h3>
+            <p id="targetNumber"></p>
+        </div>
+        
+        <div class="col-xs-8 col-sm-4">
+            <p id="end-message"></p>
+            <p>Wins:<span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>    
+        </div>
+    </div>
+    
+    <div class="row">
+        <span class="col-xs-6 col-sm-3">
+            <input type="image" src="assets/images/blueCrystal.jpg" alt="Crystal 1" id="crystal-1" class="btn number" value="randCrystal1">
+        </span>
+        <span class="col-xs-6 col-sm-3">
+                <input type="image" src="assets/images/diamondCrystal.jpg" alt="Crystal 2" id="crystal-2" class="btn number" value="randCrystal2">
+            </span>
+            <span class="col-xs-6 col-sm-3">
+                    <input type="image" src="assets/images/purpleCrystal.jpg" alt="Crystal 3" id="crystal-3" class="btn number" value="randCrystal3">
+                </span>
+                <span class="col-xs-6 col-sm-3">
+                        <input type="image" src="assets/images/spikeyCrystal.jpg" alt="Crystal 4" id="crystal-4" class="btn number" value="randCrystal4">
+                    </span>
+    </div>
+    <h3>Your total score is:</h3>
+    <p id="workingTotal"></p>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
